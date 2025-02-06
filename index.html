@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Google Analytics</title>
+    
+
+    
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        nav { background: #333; padding: 10px; }
+        nav a { color: white; margin: 10px; text-decoration: none; }
+        section { padding: 20px; border-bottom: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home" onclick="trackClick('Home')">Home</a>
+        <a href="#about" onclick="trackClick('About')">About</a>
+        <a href="#services" onclick="trackClick('Services')">Services</a>
+        <a href="#contact" onclick="trackClick('Contact')">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website!</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Learn more about us.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>Discover our services.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch with us.</p>
+    </section>
+</body>
+</html>
